@@ -1,8 +1,12 @@
-html, body, mdl-layout-grid{ height: 100% }
+html, body, .mdc-layout-grid, .mdc-layout-grid__inner{ height: 100% }
 
 body{ margin: 0 }
 
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=latin-ext');
+
+:root{
+    --mdc-theme-primary: white;
+}
 
 .mdc-typography,
 .mdc-typography--display4,
@@ -47,22 +51,29 @@ body{ margin: 0 }
     font-weight: 600
 }
 
+@media (max-width: 479px){
+    .mdc-typography--display4{ font-size: 4rem; line-height: 4rem }
+    .mdc-typography--headline{ font-size: 1rem; line-height: 1.5rem }
+}
+
 .gsf-temp__bg{
-    position: absolute;
+    position: fixed;
     z-index: -1;
     width: 100%; height: 100%;
     overflow: hidden;
-    background-color: white;
+    background-color: darkslategray;
 }
 
 video{
     position: absolute; top: 50%; left: 50%;
-    width: 100%; height: auto;
+    min-width: 105%; width: auto;
+    min-height: 105%; height: auto;
     transform: translateX(-50%) translateY(-50%);
         -ms-transform: translateX(-50%) translateY(-50%);
         -moz-transform: translateX(-50%) translateY(-50%);
         -webkit-transform: translateX(-50%) translateY(-50%);
     background-size: cover;
     transition: 1s opacity;
-    opacity: .3;
+    opacity: .8;
+    filter: blur(8px);
 }
