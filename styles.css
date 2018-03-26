@@ -77,3 +77,7 @@ video{
     opacity: .8;
     filter: blur(8px);
 }
+
+.gsf-footer{
+    text-align: center
+}
