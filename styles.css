@@ -9,51 +9,51 @@ body{ margin: 0 }
 }
 
 .mdc-typography,
-.mdc-typography--display4,
-.mdc-typography--display3,
-.mdc-typography--display2,
-.mdc-typography--display1,
-.mdc-typography--headline,
-.mdc-typography--title,
+.mdc-typography--headline6,
+.mdc-typography--headline5,
+.mdc-typography--headline4,
+.mdc-typography--headline3,
+.mdc-typography--headline2,
+.mdc-typography--headline1,
 .mdc-typography--button{
     font-family: 'Fira Sans', sans-serif !important;
 }
 
-.mdc-typography--subheading2,
-.mdc-typography--subheading1,
+.mdc-typography--subtitle2,
+.mdc-typography--subtitle1,
 .mdc-typography--body2,
 .mdc-typography--body1,
 .mdc-typography--caption{
     font-family: 'Fira Sans', sans-serif !important;
 }
 
-.mdc-typography--display4,
-.mdc-typography--display3,
-.mdc-typography--display2,
-.mdc-typography--display1{
+.mdc-typography--headline4,
+.mdc-typography--headline3,
+.mdc-typography--headline2,
+.mdc-typography--headline1{
     font-weight: 100
 }
 
-.mdc-typography--headline,
+.mdc-typography--headline5,
 .mdc-typography--title,
 .mdc-typography--button{
     font-weight: 300
 }
 
-.mdc-typography--subheading1,
+.mdc-typography--subtitle1,
 .mdc-typography--body1,
 .mdc-typography--caption{
     font-weight: 300
 }
 
-.mdc-typography--subheading2,
+.mdc-typography--subtitle2,
 .mdc-typography--body2{
     font-weight: 600
 }
 
 @media (max-width: 479px){
-    .mdc-typography--display4{ font-size: 4rem; line-height: 4rem }
-    .mdc-typography--headline{ font-size: 1rem; line-height: 1.5rem }
+    .mdc-typography--headline4{ font-size: 4rem; line-height: 4rem }
+    .mdc-typography--headline5{ font-size: 1rem; line-height: 1.5rem }
 }
 
 .gsf-temp__bg{
@@ -77,6 +77,17 @@ video{
     opacity: .8;
     filter: blur(8px);
 }
+
+.gsf-temp__logo{
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: inline-block;
+    height: 5rem; width: 5rem;
+    vertical-align: middle;
+    text-align: center
+}
+.gsf-temp__logo img{max-height: calc(5rem - 10px); width: auto;}
 
 .gsf-footer{
     text-align: center
