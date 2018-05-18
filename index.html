@@ -1,92 +1,48 @@
 <!DOCTYPE html>
-<html class="mdc-typography">
+<html>
     
     <head>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107354733-6"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            
-            gtag('config', 'UA-107354733-6');
-        </script>
-
         <meta charset="UTF-8">
         <meta content="width=device-width, initial-scale=1.0"
               name="viewport">
         <meta content="IE=edge"
               http-equiv="X-UA-Compatible">
         
-        <title>GSF</title>
+        <title>GSF | Gestão Otimizada de Recursos Hídricos</title>
         
         <!-- FONTS | Google -->
-        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=latin-ext"
+        <link href="https://fonts.googleapis.com/css?family=Nixie+One"
               rel="stylesheet">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i&amp;subset=latin-ext"
               rel="stylesheet">
-        
         <!-- FONTS | FontAwesome -->
-        <!--<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>-->
+        <link crossorigin="anonymous"
+              href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+              integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+              rel="stylesheet">
         
         <!-- CSS | Material Components -->
         <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
               rel="stylesheet">
         <!-- CSS | Custom -->
-        <link href="styles.css"
-              rel="stylesheet">
+        <link href="_assets/css/home.css"
+              rel="stylesheet"
+              type="text/css">
     </head>
     
     <body>
-        <div class="gsf-temp__bg">
-            <video autoplay
-                   loop
-                   muted>
-                <source src="remow_gsf-video_bg--under.mp4"
-                        type="video/mp4">
-                <source src="remow_gsf-video_bg--under.webm"
-                        type="video/webm">
-            </video>
-        </div>
-        <section class="mdc-layout-grid">
-            <div class="mdc-layout-grid__inner">
-                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-phone"></div>
-                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--span-4-phone">
-                    <h1 class="mdc-typography--headline1 mdc-theme--text-primary-on-dark mdc-typography--adjust-margin">
-                        Uma nova empresa está prestes a nascer.&nbsp;
-                        <div class="gsf-temp__logo">
-                            <img src="remo_gsf-logo__menor-12.png">
-                        </div>
-                    </h1>
-                    <h2 class="mdc-typography--headline5 mdc-theme--text-secondary-on-dark">A <b>gestão de recursos hídricos</b> da sua empresa, condomínio ou residência será responsabilidade de <b>especialistas</b>.</h2>
-                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-dark"><b>Água</b>, agora, torna-se <b>sinônimo</b> de eficiência, economia e sustentabilidade.</p>
-                    <a class="mdc-button mdc-button--outlined mdc-typography--button"
-                       href="mailto:embarque@gsf.eco.br"
-                       target="_top">
-                        embarque@gsf.eco.br
-                    </a><br/><br/>
-                    <a class="mdc-button mdc-button--outlined mdc-typography--button"
-                       href="https://gsf.eco.br/blog"
-                       target="_blank">
-                        VISITE NOSSO BLOG
-                    </a>
-                </div>
-                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4-desktop"></div>
-                <footer class="mdc-layout-grid__cell mdc-layout-grid__cell--align-bottom mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-4-phone gsf-footer">
-                    <h5 class="mdc-typography--caption mdc-theme--text-disabled-on-dark">
-                        GSF &copy; Todos os direitos reservados 2018<br>
-                        Uma obra-prima em construção <a href="http://remo.marketing" target="_blank">remo.marketing</a>
-                    </h5>
-                </footer>
-            </div>
-        </section>
         
-        <!-- jQuery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!-- JS | MDC -->
+        <div class="mdc-layout-grid">
+            <div class="mdc-layout-grid__inner">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4"></div>
+            </div>
+        </div>
+        
+        <!-- JS | MaterialComponents -->
         <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         <script type="text/javascript">window.mdc.autoInit();</script>
-        <!-- JS | CUSTOM -->
-        <script type="text/javascript"
-                src="scripts.js"></script>
     </body>
+    
+</html>
