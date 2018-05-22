@@ -8,8 +8,6 @@
         <meta content="IE=edge"
               http-equiv="X-UA-Compatible">
         
-        <title>GSF | Gestão Otimizada de Recursos Hídricos</title>
-        
         <!-- FONTS -->
         <!-- Google -->
         <link href="https://fonts.googleapis.com/css?family=Nixie+One"
@@ -27,9 +25,19 @@
         <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
               rel="stylesheet">
         <!-- Custom -->
-        <link href="_assets/css/mdc-typography.css"
+        <link href="_assets/css/mdc.css"
               rel="stylesheet"
               type="text/css">
+        <link href="_assets/css/styles.css"
+              rel="stylesheet"
+              type="text/css">
+        
+        <!-- COMUM - END -->
+        
+        <title>GSF | Gestão Otimizada de Recursos Hídricos</title>
+        
+        <!-- CSS -->
+        <!-- Custom -->
         <link href="_assets/css/home.css"
               rel="stylesheet"
               type="text/css">
@@ -41,10 +49,11 @@
             <div class="mdc-layout-grid__inner">
                 <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4">
                     <a class="gsf-home gsf-home__residencia"
-                       href="#">
+                       href="/residencia/index.html">
                         <span class="gsf-home--bg gsf-home--bg__residencia"></span>
                         <div class="gsf-home--text gsf-home--text__residencia">
                             <img src="_assets/img/logo/remow_gsf-logo--red--color__light.svg">
+                            <p class="mdc-typography--overline mdc-theme--text-secondary-on-dark">Economize em sua</p>
                             <h1 class="mdc-typography--headline4 mdc-theme--text-primary-on-dark">Residência</h1>
                         </div>
                     </a>
@@ -55,6 +64,7 @@
                         <span class="gsf-home--bg gsf-home--bg__condominio"></span>
                         <div class="gsf-home--text gsf-home--text__condominio">
                             <img src="_assets/img/logo/remow_gsf-logo--red--color__light.svg">
+                            <p class="mdc-typography--overline mdc-theme--text-secondary-on-dark">Economize em seu</p>
                             <h1 class="mdc-typography--headline4 mdc-theme--text-primary-on-dark">Condomínio</h1>
                         </div>
                     </a>
@@ -65,6 +75,7 @@
                         <span class="gsf-home--bg gsf-home--bg__empresa"></span>
                         <div class="gsf-home--text gsf-home--text__empresa">
                             <img src="_assets/img/logo/remow_gsf-logo--red--color__light.svg">
+                            <p class="mdc-typography--overline mdc-theme--text-secondary-on-dark">Economize em sua</p>
                             <h1 class="mdc-typography--headline4 mdc-theme--text-primary-on-dark">Empresa</h1>
                         </div>
                     </a>
@@ -78,13 +89,17 @@
                 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
                 src="https://code.jquery.com/jquery-3.3.1.min.js">
         </script>
+        <!-- MaterialComponents -->
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script type="text/javascript">window.mdc.autoInit();</script>
+        
+        <!-- COMUM - END -->
+        
         <!-- Custom -->
         <script src="_assets/js/home.js"
                 type="text/javascript">
         </script>
-        <!-- MaterialComponents -->
-        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
-        <script type="text/javascript">window.mdc.autoInit();</script>
+        
     </body>
     
 </html>
