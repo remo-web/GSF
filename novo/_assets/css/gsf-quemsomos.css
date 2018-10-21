@@ -1,0 +1,44 @@
+/* HEADER */
+.gsf-header--bg__quemsomos{
+    background-image: url(../img/header/remow_gsf-header--bg__quemsomos.jpg);
+    background-position: center !important;
+}
+
+/* TÓPICOS */
+.gsf-quemsomos--parceiros{max-height: 1.7rem; height: 1.5rem}
+.gsf-quemsomos--parceiros img{max-height: 1.7rem}
+
+.gsf-quemsomos--content{
+    background-color: #FFFFFF;
+    padding: 0 var(--mdc-layout-grid-gutter-desktop, 24px) var(--mdc-layout-grid-gutter-desktop, 24px) var(--mdc-layout-grid-gutter-desktop, 24px);
+    margin: 0 -24px 0 -24px;
+}
+
+.gsf-quemsomos--image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130%;
+    z-index: -1;
+}
+
+/* GESTÃO */
+.gsf-quemsomos--gestao{text-align: center}
+
+/* HÍDRICO */
+.gsf-quemsomos--hidrico__image{
+    background-image: url(../img/quemsomos/remow_gsf-quemsomos--hidrico.jpg);
+    margin: 0 0 0 -6rem;
+}
+
+/* DRONE */
+.gsf-quemsomos--drone__image{
+    background-image: url(../img/quemsomos/remow_gsf-quemsomos--drone.jpg);
+    margin: 0 -6rem 0 0;
+}
+
+/* SOLAR */
+.gsf-quemsomos--solar__image{
+    background-image: url(../img/quemsomos/remow_gsf-quemsomos--solar.jpg);
+    margin: 0 0 0 -6rem;
+}
