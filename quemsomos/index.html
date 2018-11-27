@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html class="mdc-typography">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta content="width=device-width, initial-scale=1.0"
+              name="viewport">
+        <meta content="IE=edge"
+              http-equiv="X-UA-Compatible">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('head').load("../_assets/html/head.html");
+            });
+        </script>
+    </head>
+    
+    <body>
+        
+        <!-- TOP APP BAR -->
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-theme--background"
+                w3-include-html="../_assets/html/menu.html">
+        </header>
+        
+        <!-- DRAWER -->
+        <aside class="mdc-drawer mdc-drawer--modal mdc-typography gsf-hide-desktop"
+               w3-include-html="../_assets/html/drawer.html">
+        </aside>
+        <div class="mdc-drawer-scrim"></div>
+        
+        <div class="mdc-layout-grid">
+            
+            <!-- HEADER -->
+            <section class="mdc-layout-grid__inner gsf-header"
+                     id="top">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-4-phone gsf-header--bg gsf-header--bg__quemsomos">
+                    <div class="mdc-layout-grid__inner gsf-header__inner">
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop"></div>
+                        <!-- TEXTO -->
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-4-phone">
+                            <h1 class="mdc-typography--headline1 mdc-theme--on-primary">Quem faz na GSF</h1>
+                            <img alt="Ícone colorido vetorizado da GSF"
+                                 class="gsf-header--icon"
+                                 src="../_assets/img/logo/remow_gsf-icon--color.svg" />
+                        </div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop"></div>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- GESTÃO -->
+            <section class="mdc-layout-grid__inner gsf-gap gsf-quemsomos--gestao"
+                     id="quemsomos-gestao">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6">
+                    <h2 class="mdc-typography--headline4 mdc-theme--text-primary-on-light">
+                       Gestores de Recursos
+                    </h2>
+                    <h3 class="mdc-typography--subtitle1 mdc-theme--text-hint-on-light">
+                        Capacidade consultiva e administrativa de ponta.
+                    </h3>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        O time da GSF conta com profissionais de altíssimo nível para orientar e organizar os recursos do seu imóvel, seja comercial, corporativo ou residencial.
+                    </p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        A análises e propostas de melhoria na administração das suas contas serão realizadas por Mestres, PhDs e pesquisadores renomados na área administração pública e de empresas.
+                    </p>
+                    <p class="mdc-typography--overline mdc-theme--text-secondary-on-light">
+                        Formação em destaque:
+                    </p>
+                    <span class="gsf-quemsomos--parceiros">
+                        <img alt="Logo vetorizada FGV - Fundação Getúlio Vargas"
+                             class="gsf-quemsomos--parceiros"
+                             src="../_assets/img/quemsomos/remow_gsf-quemsomos--fgv.svg" />
+                    </span>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+            </section>
+            
+            <!-- HÍDRICO -->
+            <section class="mdc-layout-grid__inner gsf-gap gsf-quemsomos--hidrico"
+                     id="quemsomos-hidrico">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4 gsf-quemsomos--content">
+                    <h2 class="mdc-typography--headline4 mdc-theme--text-primary-on-light">
+                        Técnicos em Economia de Água
+                    </h2>
+                    <h3 class="mdc-typography--subtitle1 mdc-theme--text-hint-on-light">
+                        Sustentabilidade e otimização de recursos hídricos.
+                    </h3>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Nossos técnicos são constantemente capacitados e trabalham com a mais alta tecnologia para diagnosticar possibilidades de melhorias no uso da água.
+                    </p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Também nos preocupamos em encontrar problemas, vazamentos, infiltrações ocultas e estamos habilitados a solucionar qualquer questão deste tipo.
+                    </p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Economia e sustentabilidade andam juntas.
+                    </p>
+                    <p class="mdc-typography--overline mdc-theme--text-secondary-on-light">
+                        Parceiro em destaque:
+                    </p>
+                    <span class="gsf-quemsomos--parceiros">
+                        <img alt="Logo vetorizada TRC Sustentável"
+                             class="gsf-quemsomos--parceiros"
+                             src="../_assets/img/quemsomos/remow_gsf-quemsomos--trc.svg" />
+                    </span>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4 gsf-quemsomos--image gsf-quemsomos--hidrico__image">
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+            </section>
+            
+            <!-- DRONE -->
+            <section class="mdc-layout-grid__inner gsf-gap gsf-quemsomos--drone"
+                     id="quemsomos-drone">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4 gsf-quemsomos--image gsf-quemsomos--drone__image">
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4 gsf-quemsomos--content">
+                    <h2 class="mdc-typography--headline4 mdc-theme--text-primary-on-light">
+                        Pilotos de Drone
+                    </h2>
+                    <h3 class="mdc-typography--subtitle1 mdc-theme--text-hint-on-light">
+                        Inspeção de fachada, construções e mapeamento aéreo de terrenos.
+                    </h3>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Em nosso time temos pilotos habilitados e experientes para realização de serviços de maneira segura, prática e absolutamente dentro das leis. 
+                    </p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Investimentos em treinamento e equipamentos de ponta. Todas as aeronaves utilizadas pela GSF contam com câmeras capazes de registrar vídeos em 4K.
+                    </p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Rapidez, praticidade e resultados precisos.
+                    </p>
+                    <p class="mdc-typography--overline mdc-theme--text-secondary-on-light">
+                        Parceiro em destaque:
+                    </p>
+                    <span class="gsf-quemsomos--parceiros">
+                        <a href="https://vistodoceu.com.br"
+                           target="_blank">
+                            <img alt="Logo vetorizada Visto do Céu"
+                                 class="gsf-quemsomos--parceiros"
+                                 src="../_assets/img/quemsomos/remow_gsf-quemsomos--vistodoceu.svg" />
+                        </a>
+                    </span>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+            </section>
+            
+            <!-- SOLAR -->
+<!--
+            <section class="mdc-layout-grid__inner gsf-gap gsf-quemsomos--solar"
+                     id="quemsomos-solar">
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-1"></div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4 gsf-quemsomos--content">
+                    <h2 class="mdc-typography--headline4 mdc-theme--text-primary-on-light">
+                        Técnicos em Economia de Energia
+                    </h2>
+                    <h3 class="mdc-typography--subtitle1 mdc-theme--text-hint-on-light">
+                        Sustentabilidade e otimização de recursos hídricos.
+                    </h3>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Nossos técnicos são constantemente capacitados e trabalham com a mais alta tecnologia para diagnosticar possibilidades de melhorias no uso da água.
+                    </p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Também nos preocupamos em encontrar problemas, vazamentos, infiltrações ocultas e estamos habilitados a solucionar qualquer questão deste tipo.
+                    </p>
+                    <p class="mdc-typography--body1 mdc-theme--text-secondary-on-light">
+                        Economia e sustentabilidade andam juntas.
+                    </p>
+                    <p class="mdc-typography--overline mdc-theme--text-secondary-on-light">
+                        Parceiro em destaque:
+                    </p>
+                    <span class="gsf-quemsomos--parceiros">
+                        <img alt="Logo vetorizada TRC Sustentável"
+                             class="gsf-quemsomos--parceiros"
+                             src="../_assets/img/quemsomos/remow_gsf-quemsomos--trc.svg" />
+                    </span>
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-4 gsf-quemsomos--image gsf-quemsomos--solar__image">
+                </div>
+                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-3"></div>
+            </section>
+-->
+            
+            <!-- TESTEMUNHO -->
+            <section class="mdc-layout-grid__inner gsf-gap gsf-testemunho"
+                     id="testemunho"
+                     w3-include-html="../_assets/html/testemunho.html">
+            </section>
+            
+            <!-- CONTATO -->
+            <section class="mdc-layout-grid__inner gsf-gap gsf-contato"
+                     id="contato"
+                     w3-include-html="../_assets/html/contato.html">
+            </section>
+            
+            <!-- FOOTER -->
+            <footer class="mdc-layout-grid__inner gsf-footer"
+                    w3-include-html="../_assets/html/footer.html">
+            </footer>
+            
+        </div>
+        
+        <!-- JS -->
+        <!-- jQuery -->
+        <script crossorigin="anonymous"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+                src="https://code.jquery.com/jquery-3.3.1.min.js">
+        </script>
+        <!-- MaterialComponents -->
+        <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+        <script type="text/javascript">window.mdc.autoInit();</script>
+        <script src="../_assets/js/mdc-quemsomos.js"></script>
+        
+        <!-- Custom -->
+        <script src="../_assets/js/gsf.js"></script>
+        <script src="../_assets/js/head.js"></script>
+        <script src="../_assets/js/menu.js"></script>
+        <script src="../contato/contato.js"></script>
+        <script src="../_assets/js/include.js"></script>
+        <script>includeHTML();</script>
+        
+    </body>
+    
+</html>
