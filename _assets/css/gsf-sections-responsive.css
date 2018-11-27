@@ -10,13 +10,26 @@
     .gsf-header--bg__quemsomos{
         background-color: white; 
         background-size: auto calc(100vh - 2 * var(--mdc-layout-grid-margin-phone)); 
-        background-position: top;
+        background-position: top !important;
+    }
+    
+    .gsf-orcamento .gsf-header__inner,
+    .gsf-quemsomos .gsf-header__inner{
+        height: calc(100vh - 2 * var(--mdc-layout-grid-margin-phone, 24px));
+        margin-left: var(--mdc-layout-grid-margin-phone, 24px);
+        margin-right: var(--mdc-layout-grid-margin-phone, 24px);
     }
     
     .gsf-header__inner{height: 200vh}
     .gsf-header--logo__wrapper{height: calc(100vh - 2 * var(--mdc-layout-grid-margin-phone))}
     .gsf-header--logo{margin-top: 25vh;}
     .gsf-header--logo img{height: 12rem; margin-bottom: 0.8rem; margin-left: auto; margin-right: auto;}
+    .gsf-getdown{
+        color: white; 
+        position: absolute; 
+        bottom: 10px; left: calc(50% - var(--mdc-layout-grid-margin-phone, 24px));
+        margin-bottom: var(--mdc-layout-grid-margin-phone, 24px);
+    }
     
     /* SECTIONS */
     section.gsf-gap {

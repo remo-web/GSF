@@ -31,6 +31,11 @@
 
 .mdc-typography--overline{margin: 0px;}
 
+/* TYPOGRAPHTY | RESPONSIVE */
+@media (max-width: 599px) {
+    .mdc-typography--headline1{font-size: 12vw; line-height: 1.2;}
+}
+
 /* OUTRAS TYPOGRAPHIES */
 
 .mdc-dialog__title{

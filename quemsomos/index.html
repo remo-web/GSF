@@ -17,33 +17,37 @@
     
     <body>
         
-        <!-- TOP APP BAR -->
-        <header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-theme--background"
-                w3-include-html="../_assets/html/menu.html">
-        </header>
-        
         <!-- DRAWER -->
         <aside class="mdc-drawer mdc-drawer--modal mdc-typography gsf-hide-desktop"
                w3-include-html="../_assets/html/drawer.html">
         </aside>
         <div class="mdc-drawer-scrim"></div>
         
-        <div class="mdc-layout-grid">
+        <!-- TOP APP BAR -->
+        <header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-theme--background"
+                w3-include-html="../_assets/html/menu.html">
+        </header>
+        
+        <div class="mdc-layout-grid main-content gsf-quemsomos">
             
             <!-- HEADER -->
             <section class="mdc-layout-grid__inner gsf-header"
                      id="top">
                 <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-4-phone gsf-header--bg gsf-header--bg__quemsomos">
                     <div class="mdc-layout-grid__inner gsf-header__inner">
-                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop"></div>
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop gsf-hide-phone"></div>
                         <!-- TEXTO -->
-                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-4-phone">
+                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-8-desktop mdc-layout-grid__cell--span-4-phone gsf--center">
                             <h1 class="mdc-typography--headline1 mdc-theme--on-primary">Quem faz na GSF</h1>
                             <img alt="Ícone colorido vetorizado da GSF"
                                  class="gsf-header--icon"
                                  src="../_assets/img/logo/remow_gsf-icon--color.svg" />
                         </div>
-                        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-2-desktop"></div>
+                        <div class="gsf-getdown gsf-hide-desktop gsf--center">
+                            <a class="mdc-icon-button">
+                                <i class="mdc-icon-button__icon fas fa-angle-down fa-xs"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
