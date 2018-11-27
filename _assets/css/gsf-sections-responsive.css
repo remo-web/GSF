@@ -5,7 +5,9 @@
     /* HEADER */
     .gsf-header--bg__residencia,
     .gsf-header--bg__condominio,
-    .gsf-header--bg__empresa{
+    .gsf-header--bg__empresa,
+    .gsf-header--bg__orcamento,
+    .gsf-header--bg__quemsomos{
         background-color: white; 
         background-size: auto calc(100vh - 2 * var(--mdc-layout-grid-margin-phone)); 
         background-position: top;
