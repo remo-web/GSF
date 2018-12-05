@@ -5,6 +5,19 @@
 }
 .gsf-menu--logo img{height: 46px; vertical-align: middle}
 .gsf-menu__active{border-bottom: solid 2px; bottom: -2px}
+.gsf-menu--loja{
+    color: rgba(0,0,0,0.37) !important;
+    overflow: visible;
+    pointer-events: auto !important;
+}
+.gsf-menu--breve{
+    position: absolute; top: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.gsf-menu--breve:hover {display: flex;}
+.gsf-menu--loja:hover > .gsf-menu--breve {opacity: 1;}
 
 /* DRAWER */
 .mdc-drawer__header img{height: 4rem}
