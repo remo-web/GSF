@@ -9,8 +9,15 @@
               http-equiv="X-UA-Compatible">
         
         <!-- Loading -->
-        <link href="../_assets/plugins/Loading/loading.css" rel="stylesheet" />     
-
+        <link href="../_assets/plugins/Loading/loading.css" rel="stylesheet" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
+        <script>
+            $(document).ready(function(){
+                $('head').load("../_assets/html/head.html");
+            });
+        </script>
+        <script src="../_assets/plugins/Loading/loading.js"></script>
     </head>
     
     <body>
@@ -360,11 +367,6 @@
                 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
                 src="https://code.jquery.com/jquery-3.3.1.min.js">
         </script>
-        <script>
-            $(document).ready(function(){
-                $('head').load("../_assets/html/head.html");
-            });
-        </script>
         <!-- MaterialComponents -->
         <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
         <script type="text/javascript">window.mdc.autoInit();</script>
@@ -376,7 +378,6 @@
         <script src="../_assets/js/menu.js"></script>
         <script src="../_assets/js/include.js"></script>
         <script>includeHTML();</script>
-        <script src="../_assets/plugins/Loading/loading.js"></script>
     </body>
     
 </html>
