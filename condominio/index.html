@@ -7,7 +7,11 @@
               name="viewport">
         <meta content="IE=edge"
               http-equiv="X-UA-Compatible">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        
+        <!-- Loading -->
+        <link href="../_assets/plugins/Loading/loading.css" rel="stylesheet" />
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
         <script>
             $(document).ready(function(){
                 $('head').load("../_assets/html/head.html");
@@ -16,7 +20,8 @@
     </head>
     
     <body>
-        
+        <div id="load"></div>
+        <span id="content">
         <!-- TOP APP BAR -->
         <header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-theme--background"
                 w3-include-html="../_assets/html/menu.html">
@@ -353,6 +358,7 @@
             </footer>
             
         </div>
+        </span>
         
         <!-- JS -->
         <!-- jQuery -->
@@ -369,10 +375,9 @@
         <script src="../_assets/js/gsf.js"></script>
         <script src="../_assets/js/head.js"></script>
         <script src="../_assets/js/menu.js"></script>
-        <script src="../contato/contato.js"></script>
         <script src="../_assets/js/include.js"></script>
         <script>includeHTML();</script>
-        
+        <script src="../_assets/plugins/Loading/loading.js"></script>
     </body>
     
 </html>
