@@ -10,13 +10,6 @@
         
         <!-- Loading -->
         <link href="../_assets/plugins/Loading/loading.css" rel="stylesheet" />
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
-        <script>
-            $(document).ready(function(){
-                $('head').load("../_assets/html/head.html");
-            });
-        </script>
     </head>
     
     <body>
@@ -377,7 +370,12 @@
         <script src="../_assets/js/menu.js"></script>
         <script src="../_assets/js/include.js"></script>
         <script>includeHTML();</script>
-        <script src="../_assets/plugins/Loading/loading.js"></script>
+        <script src="../_assets/plugins/Loading/loading.js"></script>        
+        <script>
+            $(document).ready(function(){
+                $('head').load("../_assets/html/head.html");
+            });
+        </script>
     </body>
     
 </html>
