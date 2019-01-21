@@ -7,18 +7,18 @@
               name="viewport">
         <meta content="IE=edge"
               http-equiv="X-UA-Compatible">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script>
-            $(document).ready(function(){
-                $('head').load("../_assets/html/head.html");
-            });
-        </script>
+        
+        <!-- Loading -->
+        <link href="../_assets/plugins/Loading/loading.css" rel="stylesheet" />
+        
         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
               rel="stylesheet"
               type="text/css">
     </head>
     
     <body>
+        <div id="load"></div>
+        <span id="content">
         
         <!-- DRAWER -->
         <aside class="mdc-drawer mdc-drawer--modal mdc-typography gsf-hide-desktop"
@@ -566,6 +566,8 @@
             </footer>
             
         </div>
+            
+        </span>
         
         <!-- JS -->
         <!-- jQuery -->
@@ -609,6 +611,15 @@
             max: $.validator.format("Por favor, introduza um valor menor ou igual a {0}."),
             min: $.validator.format("Por favor, introduza um valor maior ou igual a {0}.")
         });}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        
+        <script src="../_assets/plugins/Loading/loading.js"></script>        
+        <script>
+            $(document).ready(function(){
+                $('head').load("../_assets/html/head.html");
+            });
+        </script>
+        
+    
         
     </body>
     

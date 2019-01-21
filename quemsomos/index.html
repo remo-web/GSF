@@ -7,26 +7,26 @@
               name="viewport">
         <meta content="IE=edge"
               http-equiv="X-UA-Compatible">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script>
-            $(document).ready(function(){
-                $('head').load("../_assets/html/head.html");
-            });
-        </script>
-    </head>
+        
+        <!-- Loading -->
+        <link href="../_assets/plugins/Loading/loading.css" rel="stylesheet" />
+        
+     </head>
     
     <body>
-        
-        <!-- DRAWER -->
-        <aside class="mdc-drawer mdc-drawer--modal mdc-typography gsf-hide-desktop"
-               w3-include-html="../_assets/html/drawer.html">
-        </aside>
-        <div class="mdc-drawer-scrim"></div>
+        <div id="load"></div>
+        <span id="content">
         
         <!-- TOP APP BAR -->
         <header class="mdc-top-app-bar mdc-top-app-bar--fixed mdc-theme--background"
                 w3-include-html="../_assets/html/menu.html">
         </header>
+            
+        <!-- DRAWER -->
+        <aside class="mdc-drawer mdc-drawer--modal mdc-typography gsf-hide-desktop"
+               w3-include-html="../_assets/html/drawer.html">
+        </aside>
+        <div class="mdc-drawer-scrim"></div>
         
         <div class="mdc-layout-grid main-content gsf-quemsomos">
             
@@ -206,6 +206,8 @@
             </footer>
             
         </div>
+            
+        </span>
         
         <!-- JS -->
         <!-- jQuery -->
@@ -225,6 +227,12 @@
         <script src="../contato/contato.js"></script>
         <script src="../_assets/js/include.js"></script>
         <script>includeHTML();</script>
+        <script src="../_assets/plugins/Loading/loading.js"></script>        
+        <script>
+            $(document).ready(function(){
+                $('head').load("../_assets/html/head.html");
+            });
+        </script>
         
     </body>
     
