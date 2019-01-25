@@ -129,3 +129,14 @@
 
 /* DIALOG */
 .mdc-dialog__content{max-height: calc(100vh - (2rem + 140px))}
+
+/* SNACKBAR */
+.mdc-snackbar{
+    display: block;
+    
+}
+.mdc-snackbar__surface{
+    margin: auto;
+    transition: all .5s ease;
+    text-align: center;
+}
