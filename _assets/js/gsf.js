@@ -26,4 +26,8 @@ function gsf() {
         }, 1000);
     });
     
+    var date = new Date();
+    var year = date.getFullYear();
+    document.getElementById("year").innerHTML = year;
+    
 };
